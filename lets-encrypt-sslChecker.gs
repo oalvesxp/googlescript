@@ -1,4 +1,4 @@
-function singleDomain() {
+function letsEncrypt() {
 
 // @file: single-domain-sslChecker.gs
 // @author: Osvaldo Alves

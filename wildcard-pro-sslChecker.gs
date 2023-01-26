@@ -1,4 +1,4 @@
-function singleDomain() {
+function wildcardPro() {
 
 // @file: single-domain-sslChecker.gs
 // @author: Osvaldo Alves
