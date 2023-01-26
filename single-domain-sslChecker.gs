@@ -50,6 +50,13 @@ function singleDomain() {
   const now = new Date();
   const toDay = new Date(now.getTime() + MILLIS_PER_DAY);
 
-  Logger.log(toDay)
+  for(var i=0; i < 32; i++)
+  {
+    if(dates[i] < toDay)
+    {
+    Logger.log(urls[i])
+    Logger.log(dates[i])
+    }
+  }
 
 }
