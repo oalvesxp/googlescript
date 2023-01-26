@@ -27,6 +27,39 @@ function singleDomain() {
     sd.getRange(18,4).getValue()
   ];
 
-  Logger.log(dates[3]);
+  var urls = [
+    wp.getRange(3,3).getValue(),
+    wp.getRange(4,3).getValue(),
+    wp.getRange(5,3).getValue(),
+    wp.getRange(6,3).getValue(),
+    wp.getRange(7,3).getValue(),
+    wp.getRange(8,3).getValue(),
+    wp.getRange(9,3).getValue(),
+    wp.getRange(10,3).getValue(),
+    wp.getRange(11,3).getValue(),
+    wp.getRange(12,3).getValue(),
+    wp.getRange(13,3).getValue(),
+    wp.getRange(14,3).getValue(),
+    wp.getRange(15,3).getValue(),
+    wp.getRange(16,3).getValue(),
+    wp.getRange(17,3).getValue(),
+    wp.getRange(18,3).getValue(),
+    wp.getRange(19,3).getValue(),
+    wp.getRange(20,3).getValue(),
+    wp.getRange(21,3).getValue(),
+    wp.getRange(22,3).getValue(),
+    wp.getRange(23,3).getValue(),
+    wp.getRange(24,3).getValue(),
+    wp.getRange(25,3).getValue(),
+    wp.getRange(26,3).getValue(),
+    wp.getRange(27,3).getValue(),
+    wp.getRange(28,3).getValue(),
+    wp.getRange(29,3).getValue(),
+    wp.getRange(30,3).getValue(),
+    wp.getRange(31,3).getValue(),
+    wp.getRange(32,3).getValue()
+  ];
+
+  Logger.log(urls[3]);
 
 }
