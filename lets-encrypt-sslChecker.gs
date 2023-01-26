@@ -44,7 +44,7 @@ function singleDomain() {
   const now = new Date();
   const toDay = new Date(now.getTime() + MILLIS_PER_DAY);
 
-  for(var i=0; i < 15; i++)
+  for(var i=0; i < 16; i++)
   {
     if(dates[i] < toDay)
     {
