@@ -54,8 +54,7 @@ function singleDomain() {
   {
     if(dates[i] < toDay)
     {
-    Logger.log(urls[i])
-    Logger.log(dates[i])
+    MailApp.sendEmail("oalves@ecritel.com.br", "Wildcard PRO - SSL Expiration - " + urls[i],"The domain's SSL: " + urls[i] + " will expire in the next 30 days: " + dates[i] + ".");
     }
   }
 
